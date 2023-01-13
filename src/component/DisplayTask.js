@@ -18,7 +18,7 @@ const DisplayTask = ({ task, removeTask }) => {
           style={{ float: "right", backgroundColor: "red" }}
           onClick={() => deleteTask(item.id)}
         >
-          X
+          Delete
         </button>
       </div>
     ))
